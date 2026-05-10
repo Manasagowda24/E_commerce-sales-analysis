@@ -8,7 +8,7 @@ Product trends
 Geographic sales distribution
 Customer segmentation using RFM Analysis
 
-# The project was completed over three weeks and includes:
+# The project includes
 
 Exploratory Data Analysis (EDA)
 Sales Trend Analysis
