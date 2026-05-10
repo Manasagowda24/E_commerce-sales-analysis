@@ -33,7 +33,7 @@ This project analyzes the **Superstore dataset** using Python to understand cust
 ##  Objective
 To understand the dataset structure and prepare data for analysis.
 
-## 🛠 Tasks Performed
+## Tasks Performed
 - Imported dataset using Python  
 - Checked data structure (rows, columns, datatypes)  
 - Handled missing values  
@@ -43,7 +43,7 @@ To understand the dataset structure and prepare data for analysis.
 - Analyzed sales and profit distribution  
 - Studied customer and regional data  
 
-## 📌 Key Learnings
+## Key Learnings
 - Data Cleaning  
 - Data Preprocessing  
 - Exploratory Data Analysis  
