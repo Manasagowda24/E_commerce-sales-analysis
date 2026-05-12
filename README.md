@@ -2,13 +2,14 @@
 
 ##  Project Overview
 
-This project analyzes the **Superstore dataset** using Python to understand customer behavior, sales performance, product trends, geographic distribution, and customer segmentation using **RFM Analysis**.
+This project analyzes the **Superstore dataset** using Python to understand customer behavior, sales performance, product trends, geographic distribution, customer segmentation using **RFM Analysis**, and future sales forecasting using **Time Series Analysis**.
 
 ### Key Objectives:
 - Understand sales performance trends
 - Identify top and low-performing products
 - Analyze geographic sales distribution
 - Segment customers using RFM model
+- Forecast future sales trends
 - Generate actionable business insights
 
 ---
@@ -195,6 +196,80 @@ Analyze customer behavior using:
 
 ---
 
+#  Week 4: Time Series Analysis & Sales Forecasting
+
+---
+
+## Subtask 1: Time Series Data Preparation
+
+###  Objective
+Prepare sales data for forecasting analysis.
+
+###  Tasks Performed
+- Converted order dates into datetime format  
+- Extracted year, month, week, and day information  
+- Aggregated daily sales data  
+- Handled missing dates in time series  
+- Sorted data chronologically  
+- Structured data for forecasting models  
+
+###  Key Insights
+- Sales data showed seasonal fluctuations  
+- Sales increased significantly during year-end months  
+- Time-based patterns were identified successfully  
+
+---
+
+##  Subtask 2: Forecasting Model Implementation
+
+###  Objective
+Apply forecasting techniques to predict future sales trends.
+
+###  Forecasting Model Used
+- ARIMA (AutoRegressive Integrated Moving Average)
+
+###  Process
+- Split data into training and testing sets  
+- Trained ARIMA forecasting model  
+- Generated future sales predictions  
+- Evaluated model performance using RMSE  
+
+###  Key Insights
+- ARIMA successfully captured sales trends  
+- Forecasting identified future growth patterns  
+- Prediction errors remained within acceptable range  
+
+---
+
+## 📈 Subtask 3: Future Sales Prediction & Visualization
+
+###  Objective
+Visualize and interpret future sales trends.
+
+###  Visualizations Used
+- Historical vs Forecasted Sales Line Plot  
+- Forecast Trend Analysis  
+
+###  Purpose
+- Predict future revenue trends  
+- Identify seasonal demand patterns  
+- Analyze sales growth and decline periods  
+- Support business planning decisions  
+
+###  Business Insights
+- Forecasting helps optimize inventory planning  
+- Seasonal demand patterns improve operational strategy  
+- Future sales estimation supports revenue planning  
+- Predictive analytics improves business decision-making  
+
+###  Recommendations
+- Increase stock during high-demand periods  
+- Improve marketing during low-sales periods  
+- Use forecasting for long-term planning  
+- Continuously monitor prediction performance  
+
+---
+
 ##  Technologies Used
 
 - Python  
@@ -202,6 +277,8 @@ Analyze customer behavior using:
 - NumPy  
 - Matplotlib  
 - Seaborn  
+- Statsmodels  
+- Scikit-learn  
 - Jupyter Notebook  
 
 ---
@@ -217,6 +294,9 @@ Analyze customer behavior using:
 - Business Intelligence  
 - Sales Trend Analysis  
 - Geographic Analysis  
+- Time Series Analysis  
+- Sales Forecasting  
+- Predictive Analytics  
 
 ---
 
@@ -229,12 +309,14 @@ This project helps businesses:
 - Increase profitability  
 - Identify churn risks  
 - Optimize marketing strategies  
-- Make data-driven decisions  
+- Forecast future sales trends  
+- Improve inventory planning  
+- Support data-driven decision making  
 
 ---
 
 ##  Conclusion
 
-The Superstore Customer Analytics Project provided hands-on experience in data analysis, visualization, and customer segmentation.
+The Superstore Customer Analytics Project provided hands-on experience in data analysis, visualization, customer segmentation, and sales forecasting.
 
-It delivered actionable insights into sales performance, customer behavior, and business growth strategies using **EDA, RFM analysis, and visualization techniques**.
+It delivered actionable insights into sales performance, customer behavior, future revenue trends, and business growth strategies using **EDA, RFM Analysis, Time Series Analysis, and Forecasting techniques**.
