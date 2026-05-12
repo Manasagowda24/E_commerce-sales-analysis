@@ -1,4 +1,4 @@
-# 📊 Superstore Customer Analytics Project
+#  Superstore Customer Analytics Project
 
 ##  Project Overview
 
@@ -174,7 +174,7 @@ Analyze customer behavior using:
 
 ---
 
-## 📊 Subtask 3: Visualization
+##  Subtask 3: Visualization
 
 ###  Visualizations Used
 - Bar Charts  
